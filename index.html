@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins&display=swap" rel="stylesheet">
+  <title>Fomulário</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>
+        Crie e compartilhe seu evento.
+      </h1>
+      <p>
+        O primeiro passo, é preencher esse formulário de inscrição.
+      </p>
+    </header>
+    <main>
+      <form action="">
+        <fieldset>
+          <div class="fieldset-column">
+            <legend>
+              Informações do evento
+            </legend>
+            <label for="">Título do evento <span>(mínimo 8 caracteres)</span></label>
+            <input type="text">
+            <label for="">Link do evento <span>(comece com https://)</span></label>
+            <input type="url">
+            <label for="">Whatsapp para contato <span>(somente números)</span></label>
+            <input type="number">
+            <label for="">Informações extras</label>
+            <textarea name="" id=""></textarea>
+            <label for="">Categoria</label>
+            <select name="" id="">
+              <option value="">Ao Vivo</option>
+              <option value="">Podcast</option>
+              <option value="">Mentoria</option>
+            </select>
+          </div>
+        </fieldset>
+        <fieldset>
+          <div class="fieldset-column">
+            <legend>
+              Privacidade
+            </legend>
+            <label for="">E-mail do administrador <span>(digite um email válido)</span></label>
+            <input type="email">
+            <label for="">Senha de acesso para os participantes <span>(mínimo 8 caracteres)</span></label>
+            <input type="password">
+            <div class="input-checkbox">
+              <input type="checkbox">
+              <label for="">Evento privado</label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <div class="fieldset-Row">
+            <legend>
+              Dia e Hora
+            </legend>
+            <div class="box-row">
+              <div class="input-box">
+                <label for="">Data</label>
+                <input type="date">
+              </div>
+              <div class="input-box">
+                <label for="">Das</label>
+                <input type="time">
+              </div>
+              <div class="input-box">
+                <label for="">Até</label>
+                <input type="time">
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </main>
+  <footer>
+    <div class="footer-div">
+      <button>
+        Salvar evento
+      </button>
+    </div>
+  </footer>
+  </div>
+</body>
+</html>
